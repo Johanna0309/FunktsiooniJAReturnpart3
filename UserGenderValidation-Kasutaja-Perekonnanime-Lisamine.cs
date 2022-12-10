@@ -1,6 +1,6 @@
 Console.WriteLine("Please, select your gender (m/f):");
 
-char userGender = Char.Parse(Console.ReadLine(); // loeb konsoolist maha andmeid string (sõne) formaadis 
+char userGender = Char.Parse(Console.ReadLine()); // loeb konsoolist maha andmeid string (sõne) formaadis 
 
 if (usergender == 'm') 
 
