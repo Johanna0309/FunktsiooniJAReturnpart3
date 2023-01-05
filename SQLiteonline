@@ -1,0 +1,3 @@
+SELECT Customer.firstName, customer.lastName, status.statusType FROM customerStatus
+JOIN customer ON customer.rowid = customerStatus.customerId
+JOIN status ON status.rowid = customerStatus.statusid
