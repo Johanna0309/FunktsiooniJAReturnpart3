@@ -36,7 +36,7 @@ static void ReadData(SQLiteConnection myConnection)
         string readerStringLastName= reader.GetString(2);
         string readerStringDoB = reader.GetString(3);
 
-        Console.WriteLine($"{readerRowId}. Full name: {readerStringFirstName} {readerStringStatus}; DoB:{"readerStringDoB"};
+        Console.WriteLine($"{readerRowId}. Full name: {readerStringFirstName} {readerStringStatus}; DoB:{readerStringDoB}");
     
     }
 
@@ -63,3 +63,4 @@ static void ReadData(SQLiteConnection myConnection)
 
         ReadDate(myConnection);
     }
+}
